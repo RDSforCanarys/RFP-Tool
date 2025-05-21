@@ -6,7 +6,7 @@ import re
 app = Flask(__name__)
 
 # Initialize the client with the API key
-api_key = "AIzaSyAJMmA0-OC8EFYj7G2nkVpAFG9ggxJW4YU"
+api_key = #API key here
 client = genai.Client(api_key=api_key)
 
 uploaded_files = []  # Store uploaded files globally
